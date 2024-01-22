@@ -23,8 +23,8 @@ public class LambdaTestDemo1 {
 		browserOptions.setPlatformName("Windows 11");
 		browserOptions.setBrowserVersion("121.0");
 		HashMap<String, Object> ltOptions = new HashMap<String, Object>();
-		ltOptions.put("username", "shrividyoday");
-		ltOptions.put("accessKey", "8FHAW9nDur9gb7K4fZzlAC6fnYDe75uOBr2DYynprRuM3M3Nqp");
+		ltOptions.put("username", "username");
+		ltOptions.put("accessKey", "accessKey");
 		ltOptions.put("visual", true);
 		ltOptions.put("video", true);
 		ltOptions.put("project", "Untitled");
