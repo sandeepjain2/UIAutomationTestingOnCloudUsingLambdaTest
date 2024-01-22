@@ -24,8 +24,8 @@ WebDriver driver = null;
 	public void loginTestDemo(String browserName,String browserVersion,String osVersion) throws MalformedURLException, InterruptedException {
 		
 		HashMap<String, Object> ltOptions = new HashMap<String, Object>();
-		ltOptions.put("username", "shrividyoday");
-		ltOptions.put("accessKey", "8FHAW9nDur9gb7K4fZzlAC6fnYDe75uOBr2DYynprRuM3M3Nqp");
+		ltOptions.put("username", "username");
+		ltOptions.put("accessKey", "accessKey");
 		ltOptions.put("visual", true);
 		ltOptions.put("video", true);
 		ltOptions.put("project", "UIAutomation");

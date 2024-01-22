@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-17T18:23:46 IST" name="Suite" finished-at="2024-01-17T18:24:42 IST" duration-ms="55591">
+  <suite started-at="2024-01-18T15:35:27 IST" name="Suite" finished-at="2024-01-18T15:36:16 IST" duration-ms="48878">
     <groups>
     </groups>
-    <test started-at="2024-01-17T18:23:46 IST" name="EdgeTest" finished-at="2024-01-17T18:24:07 IST" duration-ms="21178">
+    <test started-at="2024-01-18T15:35:27 IST" name="EdgeTest" finished-at="2024-01-18T15:35:57 IST" duration-ms="29529">
       <class name="lambdatest.LambdaTestDemo">
-        <test-method signature="loginTestDemo(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatest.LambdaTestDemo@388526fb]" started-at="2024-01-17T18:23:46 IST" name="loginTestDemo" finished-at="2024-01-17T18:24:07 IST" duration-ms="21079" status="PASS">
+        <test-method signature="loginTestDemo(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatest.LambdaTestDemo@388526fb]" started-at="2024-01-18T15:35:27 IST" name="loginTestDemo" finished-at="2024-01-18T15:35:57 IST" duration-ms="29404" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,34 +30,9 @@
         </test-method> <!-- loginTestDemo -->
       </class> <!-- lambdatest.LambdaTestDemo -->
     </test> <!-- EdgeTest -->
-    <test started-at="2024-01-17T18:23:46 IST" name="FirefoxTest" finished-at="2024-01-17T18:24:08 IST" duration-ms="22504">
+    <test started-at="2024-01-18T15:35:27 IST" name="ChromeTest" finished-at="2024-01-18T15:36:12 IST" duration-ms="44666">
       <class name="lambdatest.LambdaTestDemo">
-        <test-method signature="loginTestDemo(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatest.LambdaTestDemo@2ea6e30c]" started-at="2024-01-17T18:23:46 IST" name="loginTestDemo" finished-at="2024-01-17T18:24:08 IST" duration-ms="22408" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[121.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Windows 11]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTestDemo -->
-      </class> <!-- lambdatest.LambdaTestDemo -->
-    </test> <!-- FirefoxTest -->
-    <test started-at="2024-01-17T18:23:46 IST" name="ChromeTest" finished-at="2024-01-17T18:24:42 IST" duration-ms="55591">
-      <class name="lambdatest.LambdaTestDemo">
-        <test-method signature="loginTestDemo(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatest.LambdaTestDemo@336f1079]" started-at="2024-01-17T18:23:46 IST" name="loginTestDemo" finished-at="2024-01-17T18:24:42 IST" duration-ms="55495" status="PASS">
+        <test-method signature="loginTestDemo(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatest.LambdaTestDemo@336f1079]" started-at="2024-01-18T15:35:27 IST" name="loginTestDemo" finished-at="2024-01-18T15:36:12 IST" duration-ms="44543" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,5 +55,30 @@
         </test-method> <!-- loginTestDemo -->
       </class> <!-- lambdatest.LambdaTestDemo -->
     </test> <!-- ChromeTest -->
+    <test started-at="2024-01-18T15:35:27 IST" name="FirefoxTest" finished-at="2024-01-18T15:36:16 IST" duration-ms="48878">
+      <class name="lambdatest.LambdaTestDemo">
+        <test-method signature="loginTestDemo(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambdatest.LambdaTestDemo@2ea6e30c]" started-at="2024-01-18T15:35:27 IST" name="loginTestDemo" finished-at="2024-01-18T15:36:16 IST" duration-ms="48754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[121.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestDemo -->
+      </class> <!-- lambdatest.LambdaTestDemo -->
+    </test> <!-- FirefoxTest -->
   </suite> <!-- Suite -->
 </testng-results>
